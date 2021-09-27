@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title> Lezly Luna</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="Keyword rich description of the site purpose." />
+  <!--Key Words are so not needed anymore -->
+  <meta name="keywords" content="UALR, UA little Rock, Information Science" />
+  <meta name="author" content="Lezly Luna" />
+</head>
+
+<body>
+  <div class="container">
+    <header class="primary">
+  <h1>Prototype HTML Document Example</h1>
+    </header>
+    <section id="content">
+  <h2 id="sample">Properly &nbsp; Marking up an HTML Document</h2>
+
+  <p>This is a paragraph. Often times designers will use <q>Dummy Text</q> as a placeholder in a document.<strong> An example of that text</strong> follows...Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+
+  <img src="https://thomaswallace.net/wp-content/uploads/2018/02/ualr.png" alt="UALR Logo" />
+  <!-- always do over https not http cuz it wont load right for source. Always have the alt since it's just a description and you will get counted points of -->
+
+  <p> Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc.<em> Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem.</em> Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor.<del> Vivamus id lectus non eros eleifend aliquet. </del>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<sup> Mauris volutpat</sup>. Integer dignissim consequat enim. <sub>Praesent velit felis</sub>, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.</p>
+
+  <hr />
+
+  <address>
+    Lezly Luna<br />
+    456 Rd Name<br />
+    Hot Springs, AR 71913<br />
+  </address>
+
+  <h3>This is a Subsection of the Primary Content</h3>
+
+  <p>This is a paragraph. Often times designers will use "Dummy Text" as a placeholder in a document. An example of that text follows...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc.</p>
+
+  <form action="prossessing-script.php" method="post">
+    <fieldset>
+      <legend>Personal Information</legend>
+      <lable for="name"> Name:</lable><input type="text" id="name" name="name" />
+      <!-- do both name and id it's best practice, and yes you can wrap lable around the input but don't do it cuz sometimes it can get too complex-->
+      <lable for="address">Address:</lable><textarea id="adress" name="address"></textarea>
+      <!--inline code-->
+      <lable for="color"> What is your favorit color?</lable>
+      <select id="color" name="color">
+        <option value="null" selected>Select Below</option>
+        <option value="R">Red</option>
+        <option value="G">Green</option>
+        <option value="b">blue</option>
+      </select>
+  <input type="submit" value="Take me to your leader!" />
+    </fieldset>
+  </form>
+
+  <table border="1" summary="Discriptive Text">
+    <!-- only use that while coding "boarder=1" TAKE OUT WHEN TURNING IT IN-->
+    <caption>To Buy List</caption>
+    <tr>
+      <th scope="col">Item</th>
+      <th scope="col">Quantity</th>
+      <th scope="col">Cost</th>
+    </tr>
+    <!-- the scope col gives it that header feel-->
+    <tr>
+      <td>Books</td>
+      <td>4</td>
+      <td>.50</td>
+    </tr>
+    <tr>
+      <td>Ramen</td>
+      <td>3</td>
+      <td>9.16</td>
+    </tr>
+    <tr>
+      <td>Slippers</td>
+      <td>7</td>
+      <td>15.32</td>
+    </tr>
+  </table>
+
+  <p> Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.</p>
+
+  <!--This is a list of instructions.-->
+  <ol start="5">
+    <li>Instruction</li>
+    <li>Instruction</li>
+    <li>Instruction</li>
+  </ol>
+  <!--This is a list of items to purchase at the grocery store.-->
+  <ul>
+    <li>Ramen</li>
+    <li>Cheetos
+      <ul>
+        <li>Hot & Spice</li>
+        <li>Old School</li>
+        <li>Puffs</li>
+      </ul>
+    </li>
+    <li>Jolt</li>
+    <li>Bread</li>
+  </ul>
+  <!--This is an Example of how we should mark up a term and its description(s)-->
+  <dl>
+    <dt>Term</dt>
+    <dd>Description 1</dd>
+    <dd>Description 2</dd>
+    <dt>Term</dt>
+    <dd>Description 1</dd>
+    <dt>Term</dt>
+    <dd>Description 1</dd>
+    <dd>Description 2</dd>
+    <dd>Description 3</dd>
+    <dd>Description 4</dd>
+  </dl>
+
+  <h4>This is a Subsection of Subsection I</h4>
+
+  <blockquote>This is a Quote. Content precedes design. Design in the absence of content is not design, it's decoration. <cite>From Designing with Web Standards by Jeffery Zeldman.</cite></blockquote>
+
+  <h3>This is a Subsection of the Primary Content</h3>
+
+  <p>This is a paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. </p>
+  <p>Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.</p>
+  <p>Proin adipiscing ultrices dui. Duis porttitor, libero ut eleifend pellentesque, risus turpis fermentum est, vel nonummy lorem est id nisl. Nulla facilisi. In sagittis tortor. Vestibulum dictum leo vitae augue. Morbi in odio sed nulla luctus sodales.</p>
+    </section><!--This is closing down the id content-->
+    
+  <!--This is the Navigation for the Page-->
+    <nav class="primary nav">
+  <ul>
+    <li><a href="https://ualr.edu" target="_blank" title="This is an example of an absoulte link">Absolute Link</a></li>
+    <!--target="_blank" will open up the link to a new window, since doing it in here may make it crash-->
+    <!-- title ="" has it give a discription of the link when you hoover over it, use on main navigation links-->
+    <li><a href="files/filename.pdf" title="this is an example of another absolute link" download>Relative Link</a></li>
+    <!-- the download will make it to where the document will download instead of opening up another window-->
+    <li><a href="#sample">Anchor Link</a></li>
+    <li><a href="mailto:twallace@ualr.edu">Sends Email</a></li>
+  </ul>
+    </nav><!--closing primary nav-->
+<footer class="primary footer">
+  <h6>&copy; 2021 Lezly Luna| <a href="#top">Back to Top</a></li></h6>
+  </footer><!--closing primarty footer-->
+      </div><!--.container-->
+</body>
+
+</html>
