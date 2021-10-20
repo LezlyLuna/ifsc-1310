@@ -1,0 +1,280 @@
+/* ------##330136---##5E1742-##962E40-##C9463D-##FF5E35---Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*----------------------utility class---------*/
+
+.container
+{
+  width:70vw;
+  margin:40px auto;
+}
+.img-left{
+  float:left;
+  boarder:1px solid #c0c0c0;
+  padding:5px;
+  margin-right:20px;
+}
+.img-center{
+  display: block;
+  margin:20px auto;
+  boarder:1px solid #c0c0c0;
+}
+
+
+
+
+body{
+  background-color:#C9463D;
+font-family: 'Sansita', sans-serif;
+margin:0;
+}
+header.primary{
+    background-color:#FF5E35;
+    text-align:center;
+    color:#962E40;
+    /*long form*/
+    padding-top:40px;
+    padding-right:40px;
+    padding-bottom:20px;
+    padding-left:40px:
+    
+    /*short goes like this where you put the four values in the top order clockwise*/
+    padding:40px 40px 20px 40px;
+    
+    /*2value short hand(right left), (top bottom)*/
+    padding: 20px 40px;
+    /*text shadow is pixels and blurs and colors*/
+    text-shadow:2px 2px 2px #000000;
+    /* this is the background pattern*/
+    background-color: #962E40;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 40' width='80' height='40'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M0 40a19.96 19.96 0 0 1 5.9-14.11 20.17 20.17 0 0 1 19.44-5.2A20 20 0 0 1 20.2 40H0zM65.32.75A20.02 20.02 0 0 1 40.8 25.26 20.02 20.02 0 0 1 65.32.76zM.07 0h20.1l-.08.07A20.02 20.02 0 0 1 .75 5.25 20.08 20.08 0 0 1 .07 0zm1.94 40h2.53l4.26-4.24v-9.78A17.96 17.96 0 0 0 2 40zm5.38 0h9.8a17.98 17.98 0 0 0 6.67-16.42L7.4 40zm3.43-15.42v9.17l11.62-11.59c-3.97-.5-8.08.3-11.62 2.42zm32.86-.78A18 18 0 0 0 63.85 3.63L43.68 23.8zm7.2-19.17v9.15L62.43 2.22c-3.96-.5-8.05.3-11.57 2.4zm-3.49 2.72c-4.1 4.1-5.81 9.69-5.13 15.03l6.61-6.6V6.02c-.51.41-1 .85-1.48 1.33zM17.18 0H7.42L3.64 3.78A18 18 0 0 0 17.18 0zM2.08 0c-.01.8.04 1.58.14 2.37L4.59 0H2.07z'%3E%3C/path%3E%3C/svg%3E");
+}
+header.primary h1 {
+  font-size:2.8rem;
+  margin: 20px 0;
+}
+header.primary h1 a{
+  color:#5E1742;
+  text-decoration: none;
+}
+header.primary h2{
+  font-size:1.4rem;
+  /* top, left&right, bottom*/
+  margin:20px auto 40px;
+}
+header.primary nav{
+  width:70vw;
+  margin:20px auto;
+  max-width:900px;
+}
+header.primary nav ul{
+    padding:0;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+header.primary nav li{
+  list-style-type: none;
+}
+header.primary nav a:link, header.primary nav a:visited{
+  color:#5E1742;
+  text-decoration:none;
+  background-color: #ffffff;
+  background-color: rgba(0,0,0,.4);
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition:5s;
+}
+header nav a: hover, header nav a:active{
+  background-color: rgba(0,0,0,.8);
+}
+
+
+#intro h2{
+  color:#962E40;
+  border-bottom:5px solid #330136;/*can use thin or thick*/
+}
+  #intro p{
+    line-height:2rem;
+  }
+
+#intro{
+    border-bottom:2px solid #330136;/*can use thin or thick*/
+    padding-bottom: 1.6rem;
+}
+
+#content{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  border-bottom:5px solid #330136;/*can use thin or thick*/
+  padding-bottom:2.5rem;
+}
+
+#content article.post{
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0,0,0,.5);
+  padding:6px;
+  boarder-radius: 7px;
+  font-size: .9rem;
+  transition: .5s;
+}
+
+#content article.post:hover{
+    box-shadow: 0 8px 16px rgba(0,0,0,.5);
+}
+
+/*a combo selector to get all the following*/
+time.post-date, figcaption, .post-meta{
+  text-transform: uppercase;
+  color: #5E1742;
+}
+
+.post a{
+  color:#330136;
+}
+
+.post a:hover, .post a:active{
+  text-decoration: none;
+}
+
+/*aditional content*/
+#additional-elements {
+  line-height:1.5;
+}
+#additional-elements a, #additional-elements a:visited{
+    color:#330136;
+}
+#additional-elements h2{
+  color:#962E40; 
+  border-bottom:5px solid #330136;/*can use thin or thick*/
+}
+#additional-elements h3{
+  border-left: 8px solid #3b638b;
+  padding-left:10px;
+}
+
+table{
+  width:100%;
+  border:1px solid #c0c0c0;
+  margin-bottom:40px;
+  border-collapse:collapse;
+}
+table tr:nth-child(odd){
+  background-color:rgba(0,0,0,.1)
+}
+
+table tr:hover{
+  background-color:rgba(0,0,0,.2)
+}
+table th{
+  background:#172635;
+  color:#fff;
+  width:33%;
+  padding:10px;
+}
+table td{
+  border:1px solid #c0c0c0;
+  padding:5px;
+  text-align:center;
+}
+table caption{
+  color:#3b638b;
+  padding:10px;
+  font-weight:bold;
+  font-size:1.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aside[role="complementary"]{
+  background-color: #962E40;
+  color:#330136;
+  padding:1.6rem;
+}
+
+aside div.container{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+article.widget{
+  width:45%;
+}
+
+article.widget a{
+  color: #330136;
+  display: block;
+  margin-top: 1.2rem;
+}
+
+article.widget footer {
+  display:none;
+}
+#colophon{
+  background-color:#C9463D;
+}
+#colophon h6{
+  padding:20px;
+  margin:0;
+  text-align: center;
+  color: #fff;
+  font-size: .8rem;
+  text-transform: uppercase;
+}
+
+
+
+
+
+#content .post figure{
+  margin:0;
+}
+/*make sure the images dont break the page to where you have to side scroll*/
+img{
+max-width: 100%;
+heighth:auto;
+}
+
+
+
+
+/* Media Query Example*/
+@media screen and (max-width:700px){
+  header.primary nav ul{
+    flex-direction: column;
+    max-width: 70vw;
+    margin:auto;
+  }
+  header.primary nav a{
+    display:block;
+  }
+  header.primary nav li{
+    margin-bottom:10px; 
+  }
+  
+}
