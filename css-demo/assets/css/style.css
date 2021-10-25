@@ -39,7 +39,7 @@ margin:0;
 header.primary{
     background-color:#FF5E35;
     text-align:center;
-    color:#962E40;
+    color:#5E1742;
     /*long form*/
     padding-top:40px;
     padding-right:40px;
@@ -99,7 +99,7 @@ header nav a: hover, header nav a:active{
 
 
 #intro h2{
-  color:#962E40;
+  color:#000000;
   border-bottom:5px solid #330136;/*can use thin or thick*/
 }
   #intro p{
@@ -115,7 +115,7 @@ header nav a: hover, header nav a:active{
   display:flex;
   flex-direction:row;
   justify-content:space-between;
-  border-bottom:5px solid #330136;/*can use thin or thick*/
+  border-bottom:2px solid #330136;/*can use thin or thick*/
   padding-bottom:2.5rem;
 }
 
@@ -154,17 +154,17 @@ time.post-date, figcaption, .post-meta{
     color:#330136;
 }
 #additional-elements h2{
-  color:#962E40; 
+  color:#000000; 
   border-bottom:5px solid #330136;/*can use thin or thick*/
 }
 #additional-elements h3{
-  border-left: 8px solid #3b638b;
+  border-left: 8px solid #330136;
   padding-left:10px;
 }
 
 table{
   width:100%;
-  border:1px solid #c0c0c0;
+  border:1px solid #000000;
   margin-bottom:40px;
   border-collapse:collapse;
 }
@@ -173,11 +173,11 @@ table tr:nth-child(odd){
 }
 
 table tr:hover{
-  background-color:rgba(0,0,0,.2)
+  background-color:#FF5E35
 }
 table th{
-  background:#172635;
-  color:#fff;
+  background:#000000;
+  color:#962E40;
   width:33%;
   padding:10px;
 }
@@ -187,7 +187,7 @@ table td{
   text-align:center;
 }
 table caption{
-  color:#3b638b;
+  color:#962E40;
   padding:10px;
   font-weight:bold;
   font-size:1.4rem;
@@ -270,7 +270,7 @@ article.widget footer {
   display:none;
 }
 #colophon{
-  background-color:#C9463D;
+  background-color:#FF5E35;
 }
 #colophon h6{
   padding:20px;
