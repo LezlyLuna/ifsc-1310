@@ -6,12 +6,12 @@ html {
 *:after {
   box-sizing: inherit;
 }
-header.primary
-{
+body{
   margin:auto;
   background-color:#730217;
   font-family: 'Sigmar One', cursive;
   text-align:center;
+  text-decoration: underline none;
 }
 ul{
     padding:0;
