@@ -1,0 +1,162 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body
+{
+background-color: #F2F2F2;
+font-family: 'Mulish', sans-serif;
+}
+header.primary{
+    text-align: center;
+    padding:20px 40px 20px 40px;
+    text-decoration: none;
+}
+header.primary nav li{
+list-style-type: none;
+text-decoration: none;
+text-align: center;
+}
+.flex-container banner primary{
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+  font-size:2.8rem;
+  margin: 20px 0;
+}
+header.primary h1 a{
+  color:#5E1742;
+  text-decoration: none;
+}
+header.primary h2{
+  font-size:1.4rem;
+  /* top, left&right, bottom*/
+  margin:20px auto 40px;
+}
+header.primary nav{
+  width:70vw;
+  margin:20px auto;
+  max-width:900px;
+}
+header.primary nav ul{
+    padding:0;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+header.primary nav li{
+  list-style-type: none;
+}
+header.primary nav a:link, header.primary nav a:visited{
+  color:#F2F2F2;
+  text-decoration:none;
+  background-color: #ffffff;
+  background-color: rgba(0,0,0,.4);
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition:5s;
+}
+header nav a: hover, header nav a:active{
+  background-color: rgba(0,0,0,.8);
+}
+#intro h2{
+  color:#000000;
+  border-bottom:5px solid #F2F2F2;/*can use thin or thick*/
+}
+  #intro p{
+    line-height:2rem;
+  }
+#intro{
+    border-bottom:2px solid #F2F2F2;/*can use thin or thick*/
+    padding-bottom: 1.6rem;
+}
+#content .p{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  border-bottom:3px solid #F2F2F2;/*can use thin or thick*/
+  padding-bottom:2.5rem;
+}
+#content article.post{
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0,0,0,.5);
+  padding:6px;
+  boarder-radius: 7px;
+  font-size: .9rem;
+  transition: .5s;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  border-bottom:3px solid #F2F2F2;/*can use thin or thick*/
+  padding-bottom:2.5rem;
+}
+#content article.post:hover{
+    box-shadow: 0 8px 16px rgba(0,0,0,.5);
+}
+time.post-date, figcaption, .post-meta{
+  text-transform: uppercase;
+  color: #5E1742;
+}
+.post a{
+  color:#F2F2F2;
+}
+.post a:hover, .post a:active{
+  text-decoration: none;
+}
+aside[role="complementary"]{
+  background-color: #D2D3D9;
+  color:#ffffff;
+  padding:1.6rem;
+}
+aside div.container{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+article.widget{
+  width:45%;
+}
+
+article.widget a{
+  color: #F2F2F2;
+  display: block;
+  margin-top: 1.2rem;
+}
+
+article.widget footer {
+  display:none;
+}
+
+
+#content .post figure{
+  margin:0;
+}
+/*make sure the images dont break the page to where you have to side scroll*/
+img{
+max-width: 100%;
+heighth:auto;
+}
+@media screen and (max-width:700px){
+  header.primary nav ul{
+    flex-direction: column;
+    max-width: 70vw;
+    margin:auto;
+  }
+  header.primary nav a{
+    display:block;
+  }
+  header.primary nav li{
+    margin-bottom:10px; 
+  }
+  
+}
